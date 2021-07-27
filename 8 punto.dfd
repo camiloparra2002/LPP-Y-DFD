@@ -1,0 +1,41 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+71
+" BIENVENIDO A EL PROGRAMA QUE TE CALCULA EL PERIMETRO DE UN CUADRADO "
+4
+1
+77
+ "para hallar el perimetro de un cuadrado a continuacion digite sus 4 lados "
+5
+1
+5
+lado1
+5
+1
+5
+lado2
+5
+1
+5
+lado3
+5
+1
+5
+lado4
+6
+1
+9
+perimetro
+23
+lado1+lado2+lado3+lado4
+4
+1
+119
+' la formula para hallar  el perimetro es la suma de sus 4 lados  el perimtero de su cuadrado es ', perimetro, ' cms  '
+1

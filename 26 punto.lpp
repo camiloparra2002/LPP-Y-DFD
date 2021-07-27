@@ -1,0 +1,27 @@
+/*26.   Leer 20 números y encontrar el mayor y el menor valor leídos*/
+entero variable,variable2,variable3,numasig
+inicio
+
+escriba " bienvenido a el programa que lee 20 números y encuentra el  numero de mayor y el de menor valor leídos "
+llamar nueva_linea 
+
+para numasig<-0 hasta 20 haga 
+lea variable
+
+si (numasig=0) entonces
+variable3<-variable
+variable2<-variable
+sino
+si (variable<variable3) entonces
+variable3<-variable
+fin si
+si variable>variable2 entonces
+variable2<- variable
+fin si
+fin si
+fin para
+escriba " el numero menor de todos los 20 numeros es  " , variable3
+llamar nueva_linea
+escriba  " el numero mayor  de todos los 20 numeros es  " , variable2
+
+fin

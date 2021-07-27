@@ -1,0 +1,24 @@
+/*28.   Leer un dato y almacenarlo en la variable n, leer otro 
+dato y almacenarlo en la variable x. Calcular el valor de x 
+elevado a la potencia n.*/
+
+entero numerox,potencian,elavarpotencia
+
+inicio
+
+
+escriba "bienvenido a el programa que te calcula la potencia de cualquier numero "
+llamar nueva_linea
+escriba " a continuacion escribe el numero a el cual le quiere elevarle la potencia despues "
+llamar nueva_linea
+lea numerox
+llamar nueva_linea
+escriba " ahora digite el numero de la pòtencia para elevarle ese numero a ",numerox
+llamar nueva_linea
+lea potencian
+llamar nueva_linea
+elavarpotencia<-numerox^potencian
+llamar nueva_linea
+escriba " ya se hizo la operacion , dio asi  ",numerox," ^ ",potencian," = ",elavarpotencia
+fin
+

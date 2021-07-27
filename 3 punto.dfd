@@ -1,0 +1,37 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+68
+" bienvenido a el programa que te suma 3 numeros que desee digitar "
+4
+1
+39
+"digite los 3 numeros que desee sumar "
+5
+1
+4
+num1
+5
+1
+4
+num2
+5
+1
+4
+num3
+6
+1
+4
+suma
+14
+num1+num2+num3
+4
+1
+36
+" la suma de los 3 numeros es ",suma
+1

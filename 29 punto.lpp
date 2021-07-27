@@ -1,0 +1,121 @@
+/*29. Realizar 5 ejercicios donde se evidencie:
+a. Manejo de mientras 
+b. Repetir hasta qué. 
+c. Para	
+d. Si (simple y anidado)
+e. Según (caso)*/
+
+/*planteamiento del programa
+en un negocio de comidas rapidas  se tine un programa que
+ calcula el costo de todas las comidas que se venden ,las comidas
+ que se venden son hamburguesa ,perro caliente y papas fritas ,ademas este 
+programa calcula los servicios que alli ofrecen como lo 
+son el wifi ,zona de juegos,estos servicios son opcionales */
+entero opcioncomida,cantidadcomida,totalcontodo,n,preciodec,bienvenido
+caracter s,entrar,comenzarserv,a
+
+inicio
+repita 
+bienvenido<-2
+ escriba " bienvenido a el programa de las comidas rapidas doña mari "
+ hasta (bienvenido=2)
+ llamar nueva_linea
+ escriba " para continuar con el programa digite s "
+  llamar nueva_linea
+  lea entrar
+ mientras (('S'=entrar) o ('s'=entrar)) haga
+ escriba " a comtinuacion vendemos estas comidas cual desea  comprar"
+ llamar nueva_linea
+ escriba "las comidas que se venden son hamburguesa a $5000 ,perro caliente $4000 y papas fritas $3000 "
+  llamar nueva_linea
+   escriba " si quiere comprar una hamburguesa DIGITE 1 , SI DESEA UN perro caliente DIGITE 2 y  SI DESEA UNAS papas fritas DIGITE 3 "
+   llamar nueva_linea
+   escriba "si quiere comprar las 3 cosas DIGITE 4,el combo completo cuesta $12.000 "
+   llamar nueva_linea
+   escriba "si desea comprar dos cosas del menu como la hamburguesa y papas fritas DIGITE 5 , cada combo cuesta $8000 "
+   llamar nueva_linea
+     escriba "si desea comprar dos cosas del menu como el perro caliente y papas fritas DIGITE 6, cada combo cuesta $7000 "
+     llamar nueva_linea
+      escriba "si desea comprar dos cosas del menu como la hamburguesa y perro caliente DIGITE 7 , cada combo cuesta $9000 "
+      llamar nueva_linea
+   
+    escriba " A CONTINUACION DIGITE LO QUE DESEA LLEVAR "
+     llamar nueva_linea
+     lea opcioncomida
+	     caso opcioncomida
+		     1: escriba "cuantas hamburguesas vas a comprar"
+		     llamar nueva_linea
+		     lea cantidadcomida
+		     preciodec<-5000*cantidadcomida
+		     llamar nueva_linea
+		     escriba " el costo de las hamburguesas es de $",preciodec
+		     
+		     
+		     2:escriba "cuantas perros calientes  vas a comprar"
+		     llamar nueva_linea
+		     lea cantidadcomida
+		     preciodec<-4000*cantidadcomida
+		     llamar nueva_linea
+		     escriba " el costo de los perros calientes es de $",preciodec
+		     
+		     3:escriba "cuantas papas fritas vas a comprar"
+		     llamar nueva_linea
+		     lea cantidadcomida
+		     preciodec<-3000*cantidadcomida
+		     llamar nueva_linea
+		     escriba " el costo de las papas fritas es de $",preciodec
+		     
+		     4:escriba "cuantos combos vas a comprar"
+		     llamar nueva_linea
+		     lea cantidadcomida
+		     preciodec<-12000*cantidadcomida
+		     llamar nueva_linea
+		     escriba " el costo de los combos es de $",preciodec
+		     
+		     5:escriba "cuantas hamburguesas  y papas fritas vas a comprar"
+		     llamar nueva_linea
+		     lea cantidadcomida
+		     preciodec<-8000*cantidadcomida
+		     llamar nueva_linea
+		     escriba " el costo de las hamburguesas  y papas fritas  es de $",preciodec
+		     
+		     6:escriba "cuantos perros calientes y papas fritas vas a comprar "
+		     llamar nueva_linea
+		     lea cantidadcomida
+		     preciodec<-7000*cantidadcomida
+		     llamar nueva_linea
+		     escriba " el costo de los perros calientes y papas fritas  es de $",preciodec
+		     
+		     7:escriba "cuantas hamburguesas y perros calientes vas a comprar"
+		     llamar nueva_linea
+		     lea cantidadcomida
+		     preciodec<-9000*cantidadcomida
+		     llamar nueva_linea
+		     escriba " el costo de las hamburguesas y perros calientes es de $",preciodec
+    	 fin caso
+     llamar nueva_linea
+     escriba " ofrecemos servicios especiales como wifi y zona de juegos si desea adquirirlos presione a sino presione otra tecla "
+     llamar nueva_linea
+     lea comenzarserv
+     
+    	 si (comenzarserv='a') entonces
+		     llamar nueva_linea
+		     escriba "  accediste a los servicios ,el costo de los dos servicios es de $10000 "
+		     totalcontodo<-preciodec+10000
+		     llamar nueva_linea
+		     escriba " el total a pagar por la comida y los servicios es de $",totalcontodo
+     	sino
+     		llamar nueva_linea
+     		escriba " fin de el programa ,cancele el valor a pagar que es de $" ,preciodec
+    	 fin si
+   	 	para n<-1 hasta 2 haga
+		    llamar nueva_linea
+		    escriba " gracias por su compra muchos exitos !!!!!!"
+	    llamar nueva_linea
+    	fin para
+    escriba "desea seguir comprando algo mas si desea seguir comprando digite s si no presiona otra tecla "
+    llamar nueva_linea
+    lea entrar
+     fin mientras
+ fin
+

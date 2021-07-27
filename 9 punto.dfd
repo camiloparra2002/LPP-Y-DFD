@@ -1,0 +1,43 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+133
+'bienvenido a la calculadora que te suma ,resta ,multiplica y divide dos numeros , a continuacion digite dos numeros para continuar '
+5
+1
+4
+num1
+5
+1
+4
+num2
+6
+3
+4
+suma
+9
+num1+num2
+5
+resta
+9
+num1-num2
+14
+multiplicacion
+9
+num1*num2
+6
+1
+8
+division
+9
+num1/num2
+4
+1
+195
+" la suma de  ",num1,"+" ,num2, "=",suma ," la resta de  ",num1,"-" ,num2," =",resta," la  multiplicacion de  ",num1,"*" ,num2, "=",multiplicacion," la division de  ",num1,"/" ,num2," =",division
+1

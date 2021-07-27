@@ -1,0 +1,68 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+81
+"      Bienvenido a el programa que te calcula el perimetro de tu rectangulo    "
+4
+1
+84
+"  para continuar con el programa digite s  si desea cerrarlo  digite otra tecla   "
+5
+1
+6
+entrar
+9
+1
+10
+entrar='s'
+4
+1
+81
+"la formula para hallar el  perimetro es la suma de los 4 lados del rectangulo  "
+4
+1
+86
+ "                a continuacion digite los 4 lados que tiene su rectangulo          "
+8
+1
+1
+n
+1
+1
+1
+1
+1
+4
+1
+1
+1
+5
+1
+6
+lee(n)
+10
+6
+1
+9
+perimetro
+27
+lee(1)+lee(2)+lee(3)+lee(4)
+4
+1
+46
+" el perimetro de su rectangulo es ",perimetro
+4
+1
+82
+"desea continuar usando el programa si es asi presione s si no digite otra tecla "
+5
+1
+6
+entrar
+11
+1

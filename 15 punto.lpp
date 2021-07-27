@@ -1,0 +1,40 @@
+/*15.  Programa que a los números mayores de 20 les sume 10*/
+entero n1,n2,n3,suma
+inicio
+
+escriba " bienvenido a el Programa que a los números mayores de 20 les suma 10 "
+llamar nueva_linea
+escriba "a continuacion digite 3 numeros que quiera ingresar "
+llamar nueva_linea
+lea n1
+llamar nueva_linea
+lea n2
+llamar nueva_linea
+lea n3		
+	si (n1>20) entonces 
+		suma<-n1+10
+		llamar nueva_linea
+		escriba " como  " ,n1, " es mayor a 20 se le suma 10 y daria " ,suma
+		sino 
+		llamar nueva_linea
+		escriba " el primer numero que es  ",n1, "  no es mayor a 20 ,entonces queda igual " 
+	fin si
+		si (n2>20) entonces
+			suma<-n2+10
+			llamar nueva_linea
+			escriba " como  " ,n2, " es mayor a 20 se le suma 10 y daria " ,suma
+			sino 
+			llamar nueva_linea
+			escriba " el segundo numero que es  ",n2, "  no es mayor a 20 ,entonces queda igual "
+		fin si
+			si (n3>20) entonces
+				suma<-n3+10
+				llamar nueva_linea
+				escriba " como  " ,n3, " es mayor a 20 se le suma 10 y daria " ,suma
+				sino 
+				llamar nueva_linea
+				escriba " el tercer numero que es ",n3, " no es mayor a 20 ,entonces queda igual "
+			fin si
+fin
+	
+				

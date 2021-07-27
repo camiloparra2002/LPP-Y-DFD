@@ -1,0 +1,19 @@
+/*14.  Programa que me permita calcular cual es el mayor de dos números*/
+entero n1,n2
+inicio
+
+ escriba " BIENVENIDO A EL PROGRAMA QUE TE DICE CUAL ES EL MAYOR DE LOS DOS NUMEROS "
+ llamar nueva_linea
+ escriba " a continuacion digite dos numeros para decir cual es el mayor de los dos numeros "
+ llamar nueva_linea
+ lea n1
+ llamar nueva_linea
+ lea n2
+	 si (n1>n2) entonces
+	 llamar nueva_linea
+	 	escriba  " el numero mayor es " ,n1
+	 sino
+	 llamar nueva_linea
+	 	escriba "el numero mayor es ",n2
+	 fin si
+fin

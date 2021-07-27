@@ -1,0 +1,13 @@
+/*20.   Imprimir un listado con los números del 1 al 100 cada uno con su respectivo cuadrado*/
+ 
+ entero n,numero,alcuadradoop,alcuadrado
+ inicio
+	para alcuadrado<-1 hasta 100 haga
+	alcuadradoop<-alcuadrado^2
+	llamar nueva_linea
+	escriba alcuadrado, " su cuadrado es ", alcuadradoop
+	llamar nueva_linea
+
+	fin para
+fin
+ 

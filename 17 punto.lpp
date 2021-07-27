@@ -1,0 +1,28 @@
+/*17.  Programa que pida la nota de un estudiante y si esta nota es 
+menor a 3 envié un mensaje (lo siento debes recuperar), si es mayor
+ o igual a 3 envié un mensaje (muy bien pasaste la materia).*/
+ real nota
+ inicio 
+ 
+ escriba " programa que te dice si pasaste o no la materia "
+ llamar nueva_linea
+ escriba " a continuacion digite su nota ,estudiante recuerde que la nota debe ser digitada en decimal"
+ llamar nueva_linea
+ lea nota
+  llamar nueva_linea
+  escriba "recordatorio si saco mas de 3,0 pasaste ,si sacaste menos de 3,0 perdiste "
+  llamar nueva_linea
+  escriba "tu nota es ",nota, " entonces"
+  llamar nueva_linea
+	 
+	  si (nota>=3) entonces 
+	 	 llamar nueva_linea
+	  	escriba " muy bien pasaste la materia   "
+	  		sino
+	  		llamar nueva_linea
+	  			escriba " lo siento debes de recuperar "
+  	fin si
+   fin
+  
+  
+ 

@@ -1,0 +1,43 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+67
+" BIENVENIDO A EL PROGRAMA QUE TE IMPRIME TU INFORMACION PERSONAL "
+4
+1
+89
+'a continuacion escriba su nombre completo ,primero sus nombres y despues sus apellidos '
+5
+1
+6
+nombre
+4
+1
+59
+"  a continuacion escriba su telefono o numero de celular "
+5
+1
+8
+telefono
+4
+1
+40
+"  a continuacion escriba su direccion "
+5
+1
+9
+direccion
+4
+1
+83
+'  sus datos personales son : su nombre es  ',nombre, ', su telefono es ' ,telefono
+4
+1
+30
+"su direccion es  ",direccion 
+1

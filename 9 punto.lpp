@@ -1,0 +1,82 @@
+/*9.  Algoritmo que pida dos números, los sume, reste, multiplique y divida*/
+entero s1,s2 ,r1,r2,m1,m2,d1,d2,suma,resta,multiplicacion,opcion1
+real division
+entero comenzar
+inicio
+escriba  "                         BIENVENIDO A EL PROGRAMA QUE TE DA LA SOLUCION  	"
+llamar nueva_linea
+llamar nueva_linea
+escriba  "                           A TU SUMA ,RESTA ,MULTIPLICACION Y DIVISION CON DOS NUMEROS "
+llamar nueva_linea
+escriba "digite 1 para continuar con  el programa"
+lea comenzar
+llamar nueva_linea
+llamar nueva_linea
+mientras (comenzar=1) haga
+
+
+escriba  "                     a continuacion digite de acuerdo a las instrucciones  "
+llamar nueva_linea
+escriba  "                            si deseas hacer una suma + , DIGITA 1   " 
+llamar nueva_linea
+llamar nueva_linea
+escriba  "                              si deseas hacer una resta - ,DIGITA 2	" 
+llamar nueva_linea
+llamar nueva_linea
+escriba  "                           si deseas hacer una multiplicacion * ,DIGITA 3 "
+ llamar nueva_linea
+ llamar nueva_linea
+escriba  "                            si deseas hacer una division / ,DIGITA 4	" 
+llamar nueva_linea
+llamar nueva_linea
+escriba  "                  digite lo que desea hacer del 1 al 4 (digite solo una opcion)  "
+llamar nueva_linea
+llamar nueva_linea
+lea opcion1
+caso opcion1
+		1:escriba "bienvenido a las sumas , digite dos numeros que desea sumar"
+		llamar nueva_linea
+		lea s1,s2
+		suma<-s1+s2
+		escriba "la suma de  " , s1 , "  mas  ",s2, "  es igual a  ",suma
+		llamar nueva_linea
+		llamar nueva_linea
+		escriba "fin de la operacion"
+		2:escriba "bienvenido a las restas , digite dos numeros que desea restar"
+		llamar nueva_linea
+		lea r1,r2
+		resta<-r1-r2
+		escriba "la resta de  " , r1 , "  menos ",r2, "  es igual a  ",resta
+		llamar nueva_linea
+		llamar nueva_linea
+		escriba "fin de la operacion"
+		3:escriba "bienvenido a las multiplicaciones, digite dos numeros que desea multiplicar"
+		llamar nueva_linea
+		lea m1,m2
+		multiplicacion<-m1*m2
+		escriba "la multiplicacion de  " , m1 , "  por  ", m2 , "  es igual a  ", multiplicacion
+		llamar nueva_linea
+		llamar nueva_linea
+		escriba "fin de la operacion"
+		4:escriba "bienvenido a las divisiones , digite dos numeros que desea dividir"
+		llamar nueva_linea
+		lea d1,d2
+		division<-d1/d2
+		escriba "la division de  " , d1 , "  dividido  ", d2 , "  es igual a  ", division
+		llamar nueva_linea
+		llamar nueva_linea
+		escriba "fin de la operacion"
+		sino :
+		escriba "el numero o caracter que digito no se encuentra en el menu de operaciones "
+fin caso
+		llamar nueva_linea
+		llamar nueva_linea
+escriba " si desea continuar usando el programa digite 1 si no desea continuar digite otro numero"
+	    llamar nueva_linea
+ 	    llamar nueva_linea
+lea comenzar
+fin mientras
+
+fin 
+					
+ 

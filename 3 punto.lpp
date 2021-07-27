@@ -1,0 +1,17 @@
+/*3.  Algoritmo que me permita sumar tres números que da el usuario.*/
+entero num1,num2,num3,suma
+
+inicio 
+
+escriba " bienvenido a el programa que te suma 3 numeros que desee digitar "
+llamar nueva_linea 
+escriba "digite los 3 numeros que desee sumar "
+llamar nueva_linea 
+lea num1
+lea num2
+lea num3
+suma<-num1+num2+num3
+llamar nueva_linea 
+escriba " la suma de los 3 numeros es ",suma
+
+fin

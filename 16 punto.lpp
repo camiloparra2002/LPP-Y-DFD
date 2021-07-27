@@ -1,0 +1,28 @@
+/*16.  Programa que a los números mayores de 20 y menores de 40 les sume 15*/
+entero n1,n2,suma
+inicio
+ escriba " bienvenido a el Programa que a los números mayores de 20 y menores de 40 les suma 15 "
+ llamar nueva_linea
+ escriba "  a continuacion digite 2 numeros que desee ingresar "
+ llamar nueva_linea 
+ lea n1
+  llamar nueva_linea 
+ lea n2
+  llamar nueva_linea 
+ si ((n1>20) y (n1<40)) entonces 
+		suma<-n1+15
+		llamar nueva_linea
+		escriba  " como  " ,n1, " es mayor a 20 y menor a 40 se le suma 15 y quedaria " ,suma
+		sino 
+		llamar nueva_linea
+		escriba " el primer numero que es  ",n1, "  no es mayor a 20 ,o es superior a 40 entonces queda igual"
+	fin si
+		si ((n2>20) y (n2<40)) entonces
+			suma<-n2+15
+			llamar nueva_linea
+			escriba " como  " ,n2, " es mayor a 20 y menor a 40 se le suma 15 y quedaria " ,suma
+			sino  
+			llamar nueva_linea
+			escriba " el segundo numero que es  ",n2, "  no es mayor a 20 o es superior a 40 entonces queda igual "
+		fin si
+fin

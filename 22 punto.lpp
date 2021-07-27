@@ -1,0 +1,20 @@
+/*22   Imprimir los números pares desde N (siendo N un número par que se lee) en forma descendente hasta 50.*/
+entero numeroinicial,numerofinal,sumaconsecutiva,numeroinicial2
+inicio
+
+escriba " bienvenido a el programa que te hace los numeros pares desde el numero que pongas hasta 50 "
+llamar nueva_linea
+escriba " a continuacion digite el numero par desde el que quiere empezar para imprimir los numeros pares hasta 50 "
+
+lea numeroinicial2
+
+para numeroinicial<-numeroinicial2  hasta 48 haga
+si (numeroinicial mod 2 = 0 ) entonces
+sumaconsecutiva<-numeroinicial+2
+llamar nueva_linea
+escriba sumaconsecutiva
+fin si
+fin para
+
+fin
+ 

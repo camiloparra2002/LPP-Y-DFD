@@ -1,0 +1,78 @@
+/*32. Realizar un ejemplo en donde se incluyan los ejercicios 4 y 5.*/
+
+/*4.  Algoritmo que me envié un mensaje por pantalla con los días de la semana.
+5.  Algoritmo que me permita calcular la edad de una persona.*/
+entero edadpersona,anodenacimiento,anoactual
+caracter entrar,seguirdia,comenzardiassema
+inicio 
+
+escriba "bienvenido a el programa que  te calcula la edad de una persona "
+ llamar nueva_linea
+ escriba " a continuacion digite el ano de su fecha de nacimiento "
+  llamar nueva_linea
+ lea anodenacimiento
+ llamar nueva_linea
+ escriba " a continuacion digite el ano actual en el que estamos"
+ llamar nueva_linea
+ lea anoactual
+ llamar nueva_linea
+ edadpersona<-anoactual-anodenacimiento
+ llamar nueva_linea
+ escriba " la edad de esa persona es  ",edadpersona, " anos "
+ llamar nueva_linea
+ escriba "desea ver los dias de la semana si es asi presione s, si no presione otra tecla "
+ lea comenzardiassema
+ si (comenzardiassema='s') entonces
+ escriba  "  bienvenido a el programa que te da un mensaje por pantalla con los días de la semana "
+llamar nueva_linea
+escriba  " desea continuar con el programa si es asi presione s ,si no presione otra tecla "
+llamar nueva_linea
+lea entrar
+	mientras (entrar='s') haga
+	escriba  "a continuacion apareceran los dias de la semana en orden , para continuar viendo los dias digite a"
+	llamar nueva_linea
+	escriba " , si no digite otra tecla "
+	llamar nueva_linea
+	lea seguirdia
+		si (seguirdia='a') entonces
+			escriba  "lunes"
+		llamar nueva_linea
+		fin si
+		lea seguirdia
+			si (seguirdia='a') entonces
+				escriba  "martes"
+			llamar nueva_linea
+			fin si
+			lea seguirdia
+				si (seguirdia='a') entonces
+					escriba  "miercoles"
+				llamar nueva_linea
+				fin si
+				lea seguirdia
+					si (seguirdia='a') entonces	
+						escriba  "jueves"
+						llamar nueva_linea
+					fin si
+						lea seguirdia
+							si (seguirdia='a') entonces	
+								escriba  "viernes"
+								llamar nueva_linea
+							fin si
+							lea seguirdia
+								si (seguirdia='a') entonces	
+									escriba  "sabado"
+									llamar nueva_linea
+								fin si
+								lea seguirdia
+									si (seguirdia='a') entonces	
+										escriba  "domingo"
+										llamar nueva_linea
+									fin si
+	escriba "desea continuar viendo los mismo dias de la semana si es asi presione s, si no presione otra tecla "
+	llamar nueva_linea
+	lea entrar
+	fin mientras
+	fin si
+	fin			
+ 
+ 

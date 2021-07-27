@@ -1,0 +1,40 @@
+/*13. Algoritmo que me permita calcular el porcentaje de hombres, de mujeres y de 
+niños de un número cualquiera de personas (se debe pedir el número de personas, el 
+número de hombres, el número de mujeres y el número de niños), enviar
+ el porcentaje de hombres, de mujeres y de niños por pantalla*/
+  entero nhombres,nmujeres,nninos,sumagrupo
+  real extracciondeporch,extracciondeporcm,extracciondeporcn,valorporcentajeh,valorporcentajen,valorporcentajem
+ inicio
+ 
+ escriba " BIENVENIDO A EL PROGRAMA QUE TE CALCULA EL PORCENTAJE DE HOMBRES ,MUJERES Y NINOS QUE HAY EN UN GRUPO "
+ llamar nueva_linea
+ llamar nueva_linea
+ escriba " a continuacion digite cuanta cantidad hay de hombres en el grupo "
+ llamar nueva_linea
+ lea nhombres
+ llamar nueva_linea
+ escriba " a continuacion digite cuanta cantidad hay de mujeres en el grupo "
+ llamar nueva_linea
+ lea nmujeres
+ llamar nueva_linea
+ escriba " a continuacion digite cuanta cantidad hay de ninos en el grupo "
+ llamar nueva_linea
+ lea nninos
+  sumagrupo<-nhombres+nmujeres+nninos
+  llamar nueva_linea
+ escriba " la suma de hombres ,mujeres y ninos que hay en el grupo es de ", sumagrupo , "  personas "
+ llamar nueva_linea
+   extracciondeporch<-nhombres/sumagrupo
+   extracciondeporcm<-nmujeres/sumagrupo
+    extracciondeporcn<-nninos/sumagrupo
+   valorporcentajeh<-extracciondeporch*100
+   valorporcentajem<-extracciondeporcm*100
+   valorporcentajen<-extracciondeporcn*100
+   llamar nueva_linea 
+   escriba "el porcentaje de hombres que hay en ese grupo es del ",valorporcentajeh,"% ,el valor de porcentaje de mujeres es  del ",valorporcentajem ,"%"
+     llamar nueva_linea 
+     escriba " y el valor de porcentaje de niños es del  ",valorporcentajen, " % "
+     
+     fin
+ 
+ 

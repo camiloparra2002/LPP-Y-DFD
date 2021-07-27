@@ -1,0 +1,32 @@
+/*2.  Algoritmo que me permita calcular el perímetro de un rectángulo.*/
+entero perimetro,n
+arreglo [4] de entero lee
+caracter entrar,s
+inicio
+
+escriba "      Bienvenido a el programa que te calcula el perimetro de tu rectangulo    "
+llamar nueva_Linea
+escriba "  para continuar con el programa digite s , si desea cerrarlo  digite otra tecla   "
+llamar nueva_Linea
+lea entrar
+mientras (entrar='s') haga 
+escriba "   la formula para hallar el  perimetro es la suma de los 4 lados del rectangulo   "
+llamar nueva_Linea
+escriba "                a continuacion digite los 4 lados que tiene su rectangulo          "
+llamar nueva_Linea
+para n<-1 hasta 4 haga
+lea lee[n]
+
+fin para
+
+perimetro<-lee[1]+lee[2]+lee[3]+lee[4]
+
+llamar nueva_Linea
+escriba " el perimetro de su rectangulo es ",perimetro
+llamar nueva_Linea
+escriba "desea continuar usando el programa si es asi presione s si no digite otra tecla "
+llamar nueva_Linea
+lea entrar
+fin mientras
+ fin 
+ 

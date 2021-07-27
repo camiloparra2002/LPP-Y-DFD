@@ -1,0 +1,80 @@
+/*36. Analizar convertir y digitar el siguiente ejercicio en LPP del siguiente programa ventas almacén.*/
+entero j,i,dias
+real gran_total,hora
+arreglo[25] de cadena [25] nombre 
+arreglo[25]  de cadena [25] tipom
+arreglo[25] de real precio
+arreglo[25] de entero cantidad
+arreglo[25] de real venta
+arreglo[31] de real total
+
+inicio
+
+gran_total<-0
+ escriba " digite el numero de dias que se efectuara la compra"
+ llamar nueva_linea
+ lea dias
+ i<-1
+ para j<-1 hasta dias haga
+ total [j]<-0
+ hora<-8
+ llamar nueva_linea
+ escriba  "dia : " ,j
+ llamar nueva_linea
+ mientras (hora<=18) haga
+  llamar nueva_linea
+  escriba " digite la hora "
+  llamar nueva_linea
+  lea hora
+  llamar nueva_linea
+  si (hora<=18) entonces
+  escriba " nombre del cliente  "
+  llamar nueva_linea
+  lea nombre[i]
+  llamar nueva_linea
+  escriba " ingresar nombre del producto "
+  llamar nueva_linea
+  lea tipom[i]
+  llamar nueva_linea
+  escriba " ingresar precio del producto "
+  llamar nueva_linea
+  lea precio[i]
+  llamar nueva_linea
+  escriba " ingresar  la cantidad "
+  llamar nueva_linea
+  lea cantidad[i]
+  llamar nueva_linea
+  venta[i]<-precio[i]*cantidad[i]
+  escriba " el comprador ; "  , nombre[i], " compro " , venta[i], "pesos "
+  llamar nueva_linea
+  i<-i+1
+  total[j]<-total[j]+venta[i-1]
+  sino
+  fin si
+  fin mientras
+  llamar nueva_linea
+  escriba " lo sentimos , la tienda se cierra , son las 18 horas "
+  llamar nueva_linea
+  escriba " el total de ventas en el dia " , j ," fue de " , total[j]
+  llamar nueva_linea
+  fin para
+  
+  para j <-1 hasta dias haga
+  llamar nueva_linea
+  escriba  " el total de ventas en el dia :" , j, " fue de ",total[j]
+  llamar nueva_linea
+  gran_total<-gran_total+total[j]
+  fin para
+  llamar nueva_linea
+  escriba " el total de ventas los :", dias, "dias , fueron " , gran_total,"pesos "
+  llamar nueva_linea
+  fin
+  
+  
+  
+  
+  
+  
+  
+ 
+ 

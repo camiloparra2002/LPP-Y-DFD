@@ -1,0 +1,58 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+133
+ "   bienvenido a el algoritmo que calcula el area de un triangulo   para continuar con el programa digite 1 si no digite otra tecla"
+5
+1
+6
+entrar
+9
+1
+8
+entrar=1
+4
+1
+125
+" a continuacion para hallar el area de un triangulo digite  primero la base y despues la altura del triangulo (todo en cms)"
+5
+1
+4
+base
+5
+1
+6
+altura
+4
+1
+88
+" la formula para hallar el area de un triangulo es base por altura divido 2 osea a*b/2"
+6
+1
+13
+areatriangulo
+13
+altura*base/2
+4
+1
+47
+"la area del triangulo es ",areatriangulo,"cms"
+4
+1
+91
+"desea continuar usando el programa si es asi presione 1 si no es asi presione otra tecla)"
+5
+1
+6
+entrar
+11
+4
+1
+18
+"fin del programa"
+1

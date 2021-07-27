@@ -1,0 +1,39 @@
+
+/*1.  Algoritmo que me permita calcular el área de un triángulo.*/
+entero base,altura,areatriangulo
+caracter s,entrar
+
+inicio
+
+escriba "   bienvenido a el algoritmo que calcula el area de un triangulo     "
+llamar nueva_linea
+llamar nueva_linea
+escriba "para continuar con el programa digite s(minuscula) si no digite otra tecla"
+llamar nueva_linea
+lea entrar
+llamar nueva_linea
+mientras (entrar='s') haga
+escriba " a continuacion para hallar el area de un triangulo digite  primero la base y"
+ llamar nueva_linea 
+escriba "despues la altura del triangulo (todo en cms)"
+llamar nueva_linea
+lea base
+llamar nueva_linea
+lea altura
+llamar nueva_linea
+escriba " la formula para hallar el area de un triangulo es base por altura divido 2 osea a*b/2"
+llamar nueva_linea
+llamar nueva_linea
+areatriangulo<-altura*base/2
+llamar nueva_linea
+escriba "la area del triangulo es ",areatriangulo,"cms"
+llamar nueva_linea
+llamar nueva_linea
+escriba "desea continuar usando el programa si es asi presione s (minuscula) si no es asi presione otra tecla)"
+llamar nueva_linea
+lea entrar
+fin mientras
+llamar nueva_linea
+escriba "fin del programa"
+fin
+

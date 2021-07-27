@@ -1,0 +1,23 @@
+/*18.  Programa que me diga cuando dos números son iguales y cuando son diferentes.*/
+entero n1,n2
+inicio
+
+escriba "  bienvenido a el Programa que me dice cuando dos números son iguales y cuando son diferentes "
+llamar nueva_linea 
+escriba " a continuacion digita 2 numeros para decir si son diferentes o iguales "
+llamar nueva_linea
+lea n1
+llamar nueva_linea
+lea n2
+	si (n1=n2) entonces
+		llamar nueva_linea
+		escriba " los dos numeros que son  " ,n1, " y " ,n2, "   son iguales  "
+		sino
+		llamar nueva_linea
+		escriba "los dos numeros que son  " ,n1, " y " ,n2, "  son diferentes "
+	fin si
+fin
+
+
+
+

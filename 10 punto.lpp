@@ -1,0 +1,28 @@
+/*10. Algoritmo que pida el valor de un artículo cualquiera y calcule el IVA del 16%, debe enviar un mensaje */
+entero precio,precioconiva,calculoiva
+inicio							
+escriba " BIENVENIDO AEL PROGRAMA QUE TE CALCULA EL IVA del 16% ,DE CUALQUIER PRODUCTO O ARTICULO "
+llamar nueva_linea
+escriba " a continuacion digite el precio del articulo que desea comprar en pesos para calcular el iva que tiene "
+llamar nueva_linea 
+lea precio
+llamar nueva_linea 
+escriba "el precio del articulo es $ ",precio
+llamar nueva_linea
+calculoiva<-precio*16/100
+precioconiva<-precio+calculoiva
+escriba " el iva de ese producto son : $ ",calculoiva
+llamar nueva_linea
+escriba " el precio del articulo que usted compro incluyendole el iba es de $  ",precioconiva," pesos "
+llamar nueva_linea 
+
+fin
+
+
+
+
+
+
+
+
+

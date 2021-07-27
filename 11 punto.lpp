@@ -1,0 +1,14 @@
+/*11. Algoritmo que me permita calcular el 20% de un número cualquiera*/
+entero numero,sacar20
+inicio
+
+escriba " bienvenido a el programa que te calcula el 20% de un numero cualquiera "
+llamar nueva_linea
+escriba " a continuacion digite el numero que desea sacarle el 20 % "
+llamar nueva_linea
+lea numero
+sacar20<-numero*20/100
+llamar nueva_linea
+escriba " el 20 % de ",numero, " es = ", sacar20
+
+fin

@@ -1,0 +1,24 @@
+/*7.Algoritmo que capture su nombre, su teléfono y su dirección.*/
+cadena [10] nombre,telefono,direccion
+inicio
+
+escriba " BIENVENIDO A EL PROGRAMA QUE TE IMPRIME TU INFORMACION PERSONAL "
+llamar nueva_linea
+escriba "  a continuacion escriba su nombre completo ,primero sus nombres y despues sus apellidos "
+llamar nueva_linea
+lea nombre
+llamar nueva_linea
+escriba "  a continuacion escriba su telefono o numero de celular "
+llamar nueva_linea
+lea telefono
+llamar nueva_linea
+escriba "  a continuacion escriba su direccion "
+llamar nueva_linea
+lea direccion
+llamar nueva_linea
+escriba "  sus datos personales son : su nombre es  ",nombre,", su telefono es ",telefono
+llamar nueva_linea
+escriba "su direccion es  ",direccion 
+llamar nueva_linea
+
+fin

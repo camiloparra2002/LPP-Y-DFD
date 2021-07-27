@@ -1,0 +1,12 @@
+/*33. Matriz*/
+/*proceso matriz*/
+entero numero
+real decimal
+inicio
+llamar inicializar_aleatorio
+repita
+numero<-aleatorio()*100
+escriba " el numero generado es : ",numero
+llamar nueva_linea
+hasta numero=0
+fin

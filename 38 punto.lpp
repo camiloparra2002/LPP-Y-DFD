@@ -1,0 +1,21 @@
+/*38. EJERCICIO PROGRAMA SOLICITUD DE DATOS*/
+cadena [50] nombre,apellidos,mote,opinion,apellido
+
+
+inicio
+
+escriba "ingresar el nombre de su materia favorita "
+llamar nueva_linea
+lea nombre
+llamar nueva_linea
+escriba "ingresar el nombre de algun mentor de su materia "
+llamar nueva_linea
+lea apellidos
+llamar nueva_linea
+llamar limpiar_pantalla
+
+nombre<- "
+
+
+
+

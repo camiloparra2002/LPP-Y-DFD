@@ -1,0 +1,23 @@
+/*21.   Imprimir un listado con los números impares desde 1 hasta 999 y seguidamente otro listado con los números pares desde 2 hasta 1000.*/
+
+entero n,s
+inicio
+escriba "listado de numeros impares"
+llamar nueva_linea
+	para n<-1 hasta 999 haga
+		si (n mod 2 = 1 )entonces
+		escriba n
+		llamar nueva_linea
+		fin si
+	fin para
+escriba "listado de numeros pares"
+llamar nueva_linea
+	para s<-1 hasta 1001 haga
+		si (s mod 2 = 0 )entonces
+		escriba s
+		llamar nueva_linea
+
+		fin si
+	fin para
+fin
+

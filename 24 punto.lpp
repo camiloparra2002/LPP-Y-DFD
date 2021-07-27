@@ -1,0 +1,28 @@
+/*24.   Imprimir los números de 1 a N (siendo N un número que se lee) cada uno con su respectivo factorial.*/
+
+entero numero,variable,variable2,numasig,variable3
+
+inicio
+
+escriba " digite un numero el cual desea factorizar "
+lea numero
+ para numasig<-1 hasta numero haga 
+ llamar nueva_linea
+ para variable<-1 hasta numasig haga
+ 
+ escriba  "el factorial de  ",variable ," es " 
+ para variable2<-1 hasta variable haga 
+ 
+ si (variable2 =1) entonces
+ variable3<-variable2*variable2
+ sino
+ variable3<-variable3*variable2
+ fin si
+ si (variable2=variable) entonces
+ escriba variable3
+ llamar nueva_linea
+ fin si
+ fin para
+ fin para
+ fin para
+ fin

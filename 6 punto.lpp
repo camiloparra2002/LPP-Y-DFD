@@ -1,0 +1,19 @@
+/*6.  Algoritmo que me permita calcular los días vividos de una persona.*/
+entero edad,diasvividos
+inicio
+
+escriba  " BIENVENIDO A EL PROGRAMA QUE TE CALCULA CUANTOS DIAS HAS VIVIDO "
+llamar nueva_linea
+escriba " para determinar cuantos dias has vivido tienes que poner cuantos años tienes actualmente "
+llamar nueva_linea
+escriba " digita a continuacion tu edad "
+llamar nueva_linea
+lea edad
+diasvividos<-edad*365
+llamar nueva_linea
+escriba " usted ha vivido  ",diasvividos,"  dias en su vida "
+
+
+fin
+
+

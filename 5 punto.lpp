@@ -1,0 +1,20 @@
+/*5.  Algoritmo que me permita calcular la edad de una persona*/
+entero edadpersona,anodenacimiento,anoactual
+
+ inicio
+ escriba " BIENVENIDO A EL PROGRAMA QUE TE CALCULA LA EDAD DE UNA PERSONA "
+ llamar nueva_linea
+ escriba " a continuacion digite el ano de su fecha de nacimiento "
+  llamar nueva_linea
+ lea anodenacimiento
+ llamar nueva_linea
+ escriba " a continuacion digite el ano actual en el que estamos"
+ llamar nueva_linea
+ lea anoactual
+ llamar nueva_linea
+ edadpersona<-anoactual-anodenacimiento
+ llamar nueva_linea
+ escriba " la edad de esa persona es  ",edadpersona, " anos "
+ 
+ fin
+ 
